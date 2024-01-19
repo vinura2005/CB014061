@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url("wilpattu/fox.jpg") ;
+    height: 160vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+    
+    
+}
+
+.nav-area li{
+    display: inline-block;
+
+}
+
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+
+}
+
+.nav-area li a:hover{
+    
+    background: #ffffff;
+    color: #000000;
+}
+
+.nav-area li ul.dropdown li{
+    display: block;
+}
+
+
+.nav-area li ul.dropdown{
+    padding: 10px;
+    width: 100%;
+   
+    
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+
+
+}
+
+.nav-area li:hover ul.dropdown{
+    display: block;
+    
+    
+}
+
+
+
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 250px;
+    
+
+}
+
+.welcome-text{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 25px;
+    transition: 1s;
+}
+
+
+.welcome-text:hover{
+    -webkit-text-stroke:1px #fff;
+    color: transparent;
+
+
+}
+
+
+#about{
+    color: rgb(241, 237, 237);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+}
+
+
+.headings1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+   
+
+}
+
+
+#intro1{
+   
+    
+    flex-direction: column;
+    width: 900px;
+    padding: 40px;
+    margin-left: 70px;
+    text-align: left;
+    margin: auto;
+    
+
+
+}
+
+#bigim1{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    cursor: pointer;
+    filter: grayscale(100%);
+
+}
+
+#bigim1:hover{
+
+    filter: grayscale(0%);
+   
+}
+
+
+
+
+
+
+
+
+#pic{
+    display: flexbox;
+    
+    
+}
+
+#pic img{
+
+    float: right;
+    margin-left: auto;
+    margin-right: 70px;
+    width: 450px;
+    height: auto;
+    margin-top: 50px
+    
+    
+
+}
+
+#intro4{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 600px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-right: 60px;
+    text-align: left;
+
+}
+
+#intro4 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.gallery a{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+.gallery a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#he{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+
+
+/** Footer **/
+
+.con {
+    display: block;
+    text-align: center;
+    padding: 40px;
+    background-color: gray;
+    color: rgb(225, 121, 121);
+    margin-top: 200px;
+    height: 100px;
+    
+   
+   
+  }
+  
+  .con p{
+    margin-right: 0px;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+
+
+
+
+
+
